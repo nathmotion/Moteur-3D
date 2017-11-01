@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Sources\Main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\SampleEngine.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\MyColorMaterial\MyColorMaterial.cpp">
+      <Filter>Materials\MyColorMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="Materials\MyColorMaterialText\MyColorMaterialText.cpp" />
+    <ClCompile Include="Materials\MyColorMaterialPWater\MyColorMaterialPWater.cpp" />
+    <ClCompile Include="Materials\MyColorMaterialCWater\MyColorMaterialCWater.cpp" />
+    <ClCompile Include="Materials\MyColorMaterialTextfountain\MyColorMaterialTextfountain.cpp" />
+    <ClCompile Include="Materials\MyColorMaterialTextSkye\MyColorMaterialTextSkye.cpp" />
+    <ClCompile Include="Materials\MyColorMaterialTextRock\MyColorMaterialTextRock.cpp" />
+    <ClCompile Include="Materials\MyColorMaterialTextStone\MyColorMaterialTextStone.cpp" />
+    <ClCompile Include="Materials\MyColorMaterialTextTreeb\MyColorMaterialTextTreeb.cpp" />
+    <ClCompile Include="Materials\MyColorMaterialTextreeM\MyColorMaterialTexttreeM.cpp" />
+    <ClCompile Include="Materials\MyColorMaterialTextIle\MyColorMaterialTextIle.cpp" />
+    <ClCompile Include="Effects\Reflet\Reflet.cpp" />
+    <ClCompile Include="Materials\MyColorMaterialTextGrass\MyColorMaterialTextGrass.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{a001fa5f-f12d-4fea-a748-b0be0e94f692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects">
+      <UniqueIdentifier>{cb494c69-72e8-4a90-9e28-16c5c714adec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials">
+      <UniqueIdentifier>{cc381c1a-b189-442a-a48e-726638f8e5ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Materials\MyColorMaterial">
+      <UniqueIdentifier>{33a7c792-f054-4103-9fa6-1f8d634d105e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sources\SampleEngine.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\MyColorMaterial\MyColorMaterial.h">
+      <Filter>Materials\MyColorMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials\MyColorMaterialText\MyColorMaterialText.h" />
+    <ClInclude Include="Materials\MyColorMaterialPWater\MyColorMaterialPWater.h" />
+    <ClInclude Include="Materials\MyColorMaterialCWater\MyColorMaterialCWater.h" />
+    <ClInclude Include="Materials\MyColorMaterialTextfountain\MyColorMaterialTextfountain.h" />
+    <ClInclude Include="Materials\MyColorMaterialTextSkye\MyColorMaterialTextSkye.h" />
+    <ClInclude Include="Materials\MyColorMaterialTextRock\MyColorMaterialTextRock.h" />
+    <ClInclude Include="Materials\MyColorMaterialTextStone\MyColorMaterialTextStone.h" />
+    <ClInclude Include="Materials\MyColorMaterialTextTreeb\MyColorMaterialTextTreeB.h" />
+    <ClInclude Include="Materials\MyColorMaterialTextreeM\MyColorMaterialTexttreeM.h" />
+    <ClInclude Include="Materials\MyColorMaterialTextIle\MyColorMaterialTextIle.h" />
+    <ClInclude Include="Effects\Reflet\Reflet.h" />
+    <ClInclude Include="Materials\MyColorMaterialTextGrass\MyColorMaterialTextGrass.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\Bunny1.png" />
+    <Image Include="Textures\Bunny2.png" />
+    <Image Include="Textures\water1.jpg" />
+    <Image Include="Textures\water_n4.png" />
+    <Image Include="Textures\sand1.jpg" />
+    <Image Include="Textures\irra.jpg" />
+  </ItemGroup>
+</Project>

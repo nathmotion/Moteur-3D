@@ -1,0 +1,35 @@
+2015-09-07 09:48:49,858 Creating Scene
+2015-09-07 09:48:49,858 Creating New Root
+2015-09-07 09:48:49,858 Creating New DefaultCamera
+2015-09-07 09:48:49,864 Creating New Scene
+2015-09-07 09:48:49,864 Loading : /Materials/Common/Common
+
+2015-09-07 09:48:49,865 Loading : /Materials/Common/Lighting/Lighting
+
+2015-09-07 09:48:49,865 Creating New MyFirstObject - Bunny
+2015-09-07 09:48:49,865 Creating New ./Objets/Bunny.obj
+2015-09-07 09:48:49,865 Creating New ./Objets/Bunny.obj
+2015-09-07 09:48:50,271 Creating New MyColorMaterial-Main
+2015-09-07 09:48:50,275  WARNING :: Tesselation Control  program MyColorMaterial-Main is unknown : using default stage
+
+2015-09-07 09:48:50,275  WARNING :: Tesselation Evaluation  program MyColorMaterial-Main is unknown : using default stage
+
+2015-09-07 09:48:50,275  WARNING :: Geometry  program MyColorMaterial-Main is unknown : using default stage
+
+2015-09-07 09:48:50,275 Creating New MyColorMaterial-Main
+2015-09-07 09:48:50,276 Creating New BoundingBoxMaterial-Main
+2015-09-07 09:48:50,277  WARNING :: Tesselation Control  program BoundingBoxMaterial-Main is unknown : using default stage
+
+2015-09-07 09:48:50,277  WARNING :: Tesselation Evaluation  program BoundingBoxMaterial-Main is unknown : using default stage
+
+2015-09-07 09:48:50,277  WARNING :: Geometry  program BoundingBoxMaterial-Main is unknown : using default stage
+
+2015-09-07 09:48:50,277 Creating New BoundingBoxMaterial-Main
+2015-09-07 09:49:05,108 0.232831 , 4294.97
+
+2015-09-07 09:49:05,108 Deleting Node : Root
+2015-09-07 09:49:05,113 Deleting Node : MyFirstObject - Bunny
+2015-09-07 09:49:05,113 Deleting Node : Scene
+2015-09-07 09:49:05,162 [Execution time] 15.718s
+
+2015-09-07 09:49:05,162 Shutting Down 

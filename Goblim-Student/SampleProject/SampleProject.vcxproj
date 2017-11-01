@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Effects\Reflet\Reflet.cpp" />
+    <ClCompile Include="Materials\MyColorMaterialCWater\MyColorMaterialCWater.cpp" />
+    <ClCompile Include="Materials\MyColorMaterialPWater\MyColorMaterialPWater.cpp" />
+    <ClCompile Include="Materials\MyColorMaterialTextfountain\MyColorMaterialTextfountain.cpp" />
+    <ClCompile Include="Materials\MyColorMaterialTextGrass\MyColorMaterialTextGrass.cpp" />
+    <ClCompile Include="Materials\MyColorMaterialTextIle\MyColorMaterialTextIle.cpp" />
+    <ClCompile Include="Materials\MyColorMaterialTextreeM\MyColorMaterialTexttreeM.cpp" />
+    <ClCompile Include="Materials\MyColorMaterialTextRock\MyColorMaterialTextRock.cpp" />
+    <ClCompile Include="Materials\MyColorMaterialTextSkye\MyColorMaterialTextSkye.cpp" />
+    <ClCompile Include="Materials\MyColorMaterialTextStone\MyColorMaterialTextStone.cpp" />
+    <ClCompile Include="Materials\MyColorMaterialTextTreeb\MyColorMaterialTextTreeb.cpp" />
+    <ClCompile Include="Materials\MyColorMaterialText\MyColorMaterialText.cpp" />
+    <ClCompile Include="Materials\MyColorMaterial\MyColorMaterial.cpp" />
+    <ClCompile Include="Sources\Main.cpp" />
+    <ClCompile Include="Sources\SampleEngine.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Effects\Reflet\Reflet.h" />
+    <ClInclude Include="Materials\MyColorMaterialCWater\MyColorMaterialCWater.h" />
+    <ClInclude Include="Materials\MyColorMaterialPWater\MyColorMaterialPWater.h" />
+    <ClInclude Include="Materials\MyColorMaterialTextfountain\MyColorMaterialTextfountain.h" />
+    <ClInclude Include="Materials\MyColorMaterialTextGrass\MyColorMaterialTextGrass.h" />
+    <ClInclude Include="Materials\MyColorMaterialTextIle\MyColorMaterialTextIle.h" />
+    <ClInclude Include="Materials\MyColorMaterialTextreeM\MyColorMaterialTexttreeM.h" />
+    <ClInclude Include="Materials\MyColorMaterialTextRock\MyColorMaterialTextRock.h" />
+    <ClInclude Include="Materials\MyColorMaterialTextSkye\MyColorMaterialTextSkye.h" />
+    <ClInclude Include="Materials\MyColorMaterialTextStone\MyColorMaterialTextStone.h" />
+    <ClInclude Include="Materials\MyColorMaterialTextTreeb\MyColorMaterialTextTreeB.h" />
+    <ClInclude Include="Materials\MyColorMaterialText\MyColorMaterialText.h" />
+    <ClInclude Include="Materials\MyColorMaterial\MyColorMaterial.h" />
+    <ClInclude Include="Sources\SampleEngine.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\Bunny1.png" />
+    <Image Include="Textures\Bunny2.png" />
+    <Image Include="Textures\irra.jpg" />
+    <Image Include="Textures\sand1.jpg" />
+    <Image Include="Textures\water1.jpg" />
+    <Image Include="Textures\water_n4.png" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{776AE62F-21AF-41C4-9EB2-1EFC9B085FDA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>BunnyExample</RootNamespace>
+    <ProjectName>SampleProject</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)\..\Libraries\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\..\Libraries\lib;C:\Home\Output\GobLimGL4\$(Configuration);$(LibraryPath)</LibraryPath>
+    <OutDir>C:\Home\Output\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>C:\Home\Output\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)\..\Libraries\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\..\Libraries\lib;C:\Home\Output\GobLimGL4\$(Configuration);$(LibraryPath)</LibraryPath>
+    <OutDir>C:\Home\Output\$(ProjectName)\$(Configuration)\</OutDir>
+    <IntDir>C:\Home\Output\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)/../Core;$(ProjectDir)/Sources;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>legacy_stdio_definitions.lib;opengl32.lib;glfw3.lib;glew32.lib;soil.lib;Assimp.lib;AntTweakBar.lib;goblim.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>:: Copy les materiaux généraux (glsl) avec la librairie
+if exist "$(SolutionDir)..\Core\Materials" xcopy "$(SolutionDir)..\Core\Materials\*.glsl" "$(OutDir)\Materials\" /S /I /y /C
+:: Copy les effets (glsl) avec la librairie
+if exist "$(SolutionDir)..\Core\Effects" xcopy "$(SolutionDir)..\Core\Effects\*.glsl" "$(OutDir)\Effects\" /S /I /y /C
+:: copie des objets 3D de base nécessaires au moteur
+if exist "$(SolutionDir)..\Core\Objets" xcopy "$(SolutionDir)..\Core\Objets" "$(OutDir)\Objets\" /S /I /y /C
+:: copie des DLL 
+if exist "$(SolutionDir)..\Libraries\dll" xcopy "$(SolutionDir)..\Libraries\dll\*.dll" "$(OutDir)" /S /I /y /C
+if exist "$(SolutionDir)..\Core\Textures" xcopy "$(SolutionDir)..\Core\Textures" "$(OutDir)\Textures" /S /I /y /C
+if exist "$(SolutionDir)..\Core\Resources" xcopy "$(SolutionDir)..\Core\Resources" "$(OutDir)\Resources" /S /I /y /C
+:: partie pour les sous projets : copies les dossiers dans le dossier finale
+if exist "$(ProjectDir)\Materials" xcopy "$(ProjectDir)\Materials\*.glsl" "$(OutDir)\Materials\" /S /I /y /C
+if exist "$(ProjectDir)\Effects" xcopy "$(ProjectDir)\Effects\*.glsl" "$(OutDir)\Effects\" /S /I /y /C
+if exist "$(ProjectDir)\Objets" xcopy "$(ProjectDir)\Objets" "$(OutDir)\Objets\" /S /I /y /C
+if exist "$(ProjectDir)\Textures" xcopy "$(ProjectDir)\Textures" "$(OutDir)\Effects\" /S /I /y /C</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)/../Core;$(ProjectDir)/Sources;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;glew32.lib;soil.lib;Assimp.lib;AntTweakBar.lib;goblim.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>:: Copy les materiaux généraux (glsl) avec la librairie
+if exist "$(SolutionDir)..\Core\Materials" xcopy "$(SolutionDir)..\Core\Materials\*.glsl" "$(OutDir)\Materials\" /S /I /y /C
+:: Copy les effets (glsl) avec la librairie
+if exist "$(SolutionDir)..\Core\Effects" xcopy "$(SolutionDir)..\Core\Effects\*.glsl" "$(OutDir)\Effects\" /S /I /y /C
+:: copie des objets 3D de base nécessaires au moteur
+if exist "$(SolutionDir)..\Core\Objets" xcopy "$(SolutionDir)..\Core\Objets" "$(OutDir)\Objets\" /S /I /y /C
+:: copie des DLL 
+if exist "$(SolutionDir)..\Libraries\dll" xcopy "$(SolutionDir)..\Libraries\dll\*.dll" "$(OutDir)" /S /I /y /C
+if exist "$(SolutionDir)..\Core\Textures" xcopy "$(SolutionDir)..\Core\Textures" "$(OutDir)\Textures" /S /I /y /C
+if exist "$(SolutionDir)..\Core\Resources" xcopy "$(SolutionDir)..\Core\Resources" "$(OutDir)\Resources" /S /I /y /C
+:: partie pour les sous projets : copies les dossiers dans le dossier finale
+if exist "$(ProjectDir)\Materials" xcopy "$(ProjectDir)\Materials\*.glsl" "$(OutDir)\Materials\" /S /I /y /C
+if exist "$(ProjectDir)\Effects" xcopy "$(ProjectDir)\Effects\*.glsl" "$(OutDir)\Effects\" /S /I /y /C
+if exist "$(ProjectDir)\Objets" xcopy "$(ProjectDir)\Objets" "$(OutDir)\Objets\" /S /I /y /C
+if exist "$(ProjectDir)\Textures" xcopy "$(ProjectDir)\Textures" "$(OutDir)\Effects\" /S /I /y /C</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
